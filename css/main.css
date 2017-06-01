@@ -89,3 +89,22 @@ body {
 	max-width: 100%;
 	height: auto;
 }
+
+#about {
+	background-color: #19c3a8;
+	height: 400px;
+}
+#about h1 {
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	top: 30px;
+	text-decoration: underline;
+}
+#parr1, #parr2 {
+	width: 100%;
+	position: relative;
+	color: #fff;
+	top: 25px;
+	font-size: 20px;
+}
