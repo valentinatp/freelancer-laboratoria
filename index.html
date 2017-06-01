@@ -5,25 +5,60 @@
 	<title>Freelancer</title>
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
 	<header>
 		<nav class="cuadro-completo">
-			<ul id="cuadro">
-				<li id="lista">
-					<a href="#">PORTAFOLIO</a>
-					<a href="#">ABOUT</a>
-					<a href="#">CONTACT</a>
-				</li>
-			</ul>
+			<div class="row">
+				<div class="col-9">
+					<a class="boot" href="#">START BOOTSTRAP</a>
+					<ul id="cuadro">
+						<li id="lista">
+							<a href="#">PORTAFOLIO</a>
+							<a href="#">ABOUT</a>
+							<a href="#">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 		<div class="fondo">
-			<img src="assets/images/profile.png" alt="">
+			<img src="assets/images/profile.png" alt="profile">
 			<h1>START BOOTSTRAP</h1>
+			<p>    <i class="fa fa-star" aria-hidden="true"></i>   </p>
 			<p>Web Developer - Graphic Artist - User Experience Designer</p>
 		</div>
 	</header>
+	<section id="portafolio">
+		<h1>PORTAFOLIO</h1>
+		<p><i class="fa fa-star" aria-hidden="true"></i></p>
+		<br>
+		<div class="row">
+			<div class="col-4">
+				<img src="assets/images/portfolio/cabin.png" alt="fotos">
+			</div>
+			<div class="col-4">
+				<img src="assets/images/portfolio/cake.png" alt="fotos">
+			</div>
+			<div class="col-4">
+				<img src="assets/images/portfolio/circus.png" alt="fotos">
+			</div>
+		<div class="row">
+			<div class="col-4">
+				<img src="assets/images/portfolio/game.png" alt="fotos">
+			</div>
+			<div class="col-4">
+				<img src="assets/images/portfolio/safe.png" alt="fotos">
+			</div>
+			<div class="col-4">
+				<img src="assets/images/portfolio/submarine.png" alt="fotos">
+			</div>
+		</div>
+		</div>
+	</section>
 	
 </body>
 </html>

@@ -10,24 +10,38 @@ body {
 	background-color: #31455a;
 	width: 100%;
 	height: 50px;
+	position: fixed;
+	z-index: 1000;
 }
 
 #cuadro {
 	margin: 0;
+	list-style: none;
+}
+
+.boot {
+	text-decoration: none;
+	top: 10px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 25px;
 }
 
 #lista a {
 	color: #fff;
 	text-decoration: none;
-	position: relative;
-	left: 950px;
 	padding: 20px;
 	margin: 0;
-	top: 15px;
+	width: 60%;
+	text-align: left;
+	position: relative;
+	left: 950px;
+	bottom: 25px;
 }
 
 #lista a:hover {
-	color: #19c3a8;
+	background-color: #19c3a8;
 }
 
 .fondo {
@@ -38,21 +52,40 @@ body {
 .fondo img {
 	position: relative;
 	left: 550px;
-	top: 50px;
+	top: 60px;
 }
 
- h1 {
+.fondo h1 {
  	color: #fff;
  	position: relative;
 	text-align: center;
-	top: 30px;
+	top: 50px;
 	font-size: 60px;
 }
 
- p {
+.fondo p {
  	color: #fff;
  	position: relative;
 	text-align: center;
-	top: 30px;
+	top: 50px;
 	font-size: 25px;
+}
+
+#portafolio h1 {
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	top: 20px;
+}
+
+#portafolio p {
+	text-align: center;
+	position: relative;
+	top: 20px;
+	font-size: 25px;
+}
+
+#portafolio img {
+	max-width: 100%;
+	height: auto;
 }
