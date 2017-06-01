@@ -1,0 +1,58 @@
+/*#19c3a8;
+#6f7c88
+*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.cuadro-completo {
+	background-color: #31455a;
+	width: 100%;
+	height: 50px;
+}
+
+#cuadro {
+	margin: 0;
+}
+
+#lista a {
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	left: 950px;
+	padding: 20px;
+	margin: 0;
+	top: 15px;
+}
+
+#lista a:hover {
+	color: #19c3a8;
+}
+
+.fondo {
+	background-color: #19c3a8;
+	height: 500px;
+}
+
+.fondo img {
+	position: relative;
+	left: 550px;
+	top: 50px;
+}
+
+ h1 {
+ 	color: #fff;
+ 	position: relative;
+	text-align: center;
+	top: 30px;
+	font-size: 60px;
+}
+
+ p {
+ 	color: #fff;
+ 	position: relative;
+	text-align: center;
+	top: 30px;
+	font-size: 25px;
+}
