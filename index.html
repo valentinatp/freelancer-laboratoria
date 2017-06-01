@@ -3,10 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i" rel="stylesheet">
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body>
@@ -28,13 +30,21 @@
 		<div class="fondo">
 			<img src="assets/images/profile.png" alt="profile">
 			<h1>START BOOTSTRAP</h1>
-			<p>    <i class="fa fa-star" aria-hidden="true"></i>   </p>
+			<div class="estrellita">
+				<div class="cont"></div>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<div class="cont"></div>
+			</div> 
 			<p>Web Developer - Graphic Artist - User Experience Designer</p>
 		</div>
 	</header>
 	<section id="portafolio">
 		<h1>PORTAFOLIO</h1>
-		<p><i class="fa fa-star" aria-hidden="true"></i></p>
+		<div class="estrellita">
+			<div class="cont"></div>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<div class="cont"></div>
+		</div>
 		<br>
 		<div class="row">
 			<div class="col-4">
@@ -61,7 +71,11 @@
 	</section>
 	<section id="about">
 		<h1>ABOUT</h1>
-		<div id="estrella" class="estre"></div><i id="estrella" class="fa fa-star" aria-hidden="true"></i><div id="estrella" class="estre"></div>
+		<div class="estrellita">
+			<div class="cont"></div>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<div class="cont"></div>
+		</div> 
 		<div class="container">
 			<div class="row">
 				<div class="col-6">
@@ -75,6 +89,11 @@
 	</section> 
 	<section class="forms">
 		<h1>CONTACT ME</h1>
+		<div class="estrellita">
+			<div class="cont"></div>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<div class="cont"></div> 
+		</div>
 		<div class="formulario">
 			<div>
 				<label for="name"></label>
@@ -91,9 +110,35 @@
 			<div>
 				<label for="message"></label>
 				<input type="text" id="msj" placeholder="Message">
-			</div>
+			</div> 
+			<div>
+				<button class="boton">Send</button>
+			</div> 
 		</div>
 	</section>
-
+	<section class="final">
+		<div class="row">
+			<div class="col-4">
+				<h1>LOCATION</h1>
+				<p>3481 Melrose Place Beverly Hills, CA 90210</p>
+			</div>
+			<div class="col-4">
+				<h1>AROUND THE WEB</h1>
+				<br>
+					<div id="fb"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+					<div id="fb"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+					<div id="fb"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+					<div id="fb"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+					<div id="fb"><i class="fa fa-dribbble" aria-hidden="true"></i></div>
+			</div>
+			<div class="col-4">
+				<h1>ABOUT FREELANCER</h1>
+				<p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap</p>
+			</div>
+		</div>	
+	</section>
+	<footer>
+		<p>Copyright<i class="fa fa-copyright" aria-hidden="true"></i>Your Website 2016</p>
+	</footer>
 </body>
 </html>
